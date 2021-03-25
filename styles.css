@@ -1,0 +1,406 @@
+body {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #FAF0E6;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items:200px;
+	margin-top:50px;
+	margin-left:14750px;
+}
+
+li {
+    display: block;
+    padding: 0 60px;
+    color: #FAEBD7;
+    font-size: 15px;
+    font-family:Century Gothic;
+    text-transform: uppercase;
+    transition: .6s;
+}
+
+li a {
+    text-decoration: none;
+    color: #696969;
+    transition: .5s;
+    padding:10px;
+}
+
+
+ul:hover li a:hover {
+    font-size: 25px;
+    
+    background-color: #FAF0E6;
+}
+
+
+
+
+
+
+
+//slider
+/* Слайдер */
+.slider{
+    max-width: 70%;
+    position: relative;
+    margin: 50%;
+    height: 200px;
+}
+
+/* Картинка масштабируется по отношению к родительскому элементу */
+.slider .item img {
+    object-fit: cover;
+    width: 100%;
+    height: 410px;
+	position:0px;
+	width:1200px;
+	margin-left:-1110px;
+	margin-top:150px;
+}
+/* Кнопки вперед и назад */
+.slider .previous, .slider .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top:22px;
+	margin-left:-1080px;
+	margin-right:50px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+.slider .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+/* При наведении на кнопки добавляем фон кнопок */
+.slider .previous:hover,
+.slider .next:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+/* Анимация слайдов */
+.slider .item {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade {
+    from {
+        opacity: 0.4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.fon{
+   position: relative;
+   left:-1200px;
+   top:650px;
+}
+.fon2{
+   position: relative;
+   left:-1125px;
+   top:650px;
+}
+.fon3{
+   position: relative;
+   left:-1050px;
+   top:650px;
+}
+.main_photo{
+	position: relative;
+   left:-2250px;
+   top:900px;
+}
+.photo1{
+	position: relative;
+   left:-2195px;
+   top:900px;
+}
+.photo2{
+	position: relative;
+   left:-2140px;
+   top:900px;
+}
+.photo1_text{
+	position: relative;
+   left:-2650px;
+   top:1150px;
+}
+h6{
+	color:black;
+	text-transform:uppercase;
+	font-size:14px;
+	text-align:center;
+	font-family:Lucida Sans Unicode;
+
+}
+h6 p{
+	color:#CD853F;
+	text-transform:uppercase;
+	font-size:14px;
+	text-align:center;
+	font-family:Lucida Sans Unicode;
+	
+}
+.photo2_text{
+	position: relative;
+   left:-2400px;
+   top:1150px;
+}
+.photo3{
+	position: relative;
+   left:-2900px;
+   top:1250px;
+}
+.photo4{
+	position: relative;
+   left:-2840px;
+   top:1250px;
+}
+.photo3_text{
+	position: relative;
+   left:-3350px;
+   top:1500px;
+}
+.photo4_text{
+	position: relative;
+   left:-3100px;
+   top:1500px;
+}
+.video{
+   position: relative;
+   left:-4210px;
+   top:1750px;
+}
+.video img{
+filter: brightness(0.4)
+}
+ h5 p{
+	color:#FFFFFF;
+	text-transform:uppercase;
+	font-size:40px;
+	font-family:Belleza;
+ }
+.text2{
+   position: relative;
+   left:-5020px;
+   top:1850px;
+}
+.text3{
+   position: relative;
+   left:-5000px;
+   top:1850px;
+}
+.text4{
+   position: relative;
+   left:-4970px;
+   top:1850px;
+}
+.video_text p{
+	color:#FFFFFF99;
+	text-transform:uppercase;
+	font-size:15px;
+	font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    display: inline-block;
+	text-align: center;
+	width:800px;
+ }
+ .video_text{
+   position: relative;
+   left:-5570px;
+   top:1950px;
+ }
+
+.custom-btn{
+ background: linear-gradient(to bottom, #BA7F32,#BA7F32);
+   position: relative;
+   left:-6070px;
+   top:2050px;
+   height:60px;
+}
+
+.custom-btn h5{
+	color:#FFFFFF;
+	text-transform:uppercase;
+	font-size:15px;
+	font-family: Lucida Sans Unicode;
+    display: inline-block;
+	text-align: center;
+	width:160px;
+	
+	
+}
+
+
+.main_photo2{
+	position: relative;
+   left:-6070px;
+   top:2250px;
+}
+	 
+ .photo5{
+   position: relative;
+   left:-7270px;
+   top:2250px;
+}
+.photo6{
+   position: relative;
+   left:-7220px;
+   top:2250px;
+}
+.photo5_text{
+	position: relative;
+   left:-7730px;
+   top:2500px;
+}
+.photo6_text{
+	position: relative;
+   left:-7480px;
+   top:2500px;
+}
+
+ .photo7{
+   position: relative;
+   left:-7970px;
+   top:2600px;
+}
+.photo8{
+   position: relative;
+   left:-7920px;
+   top:2600px;
+}
+.photo7_text{
+	position: relative;
+   left:-8420px;
+   top:2850px;
+}
+.photo8_text{
+	position: relative;
+   left:-8180px;
+   top:2850px;
+}
+.comment{
+   position: relative;
+   left:-8678px;
+   top:3000px;
+}
+.comment img{
+filter: brightness(0.4)
+}
+.text5 h5{
+	color:#FFFFFF;
+	text-transform:uppercase;
+	font-size:40px;
+	font-family:Belleza;
+	width:500px;
+}
+.text5{
+	position: relative;
+   left:-9478px;
+   top:2970px;
+}
+.comment1{
+   position: relative;
+   left:-10340px;
+   top:3200px;
+}
+.comment2{
+   position: relative;
+   left:-10315px;
+   top:3200px;
+}
+.text6 h5{
+	color:#000000;
+	text-transform:uppercase;
+	font-size:40px;
+	font-family:Belleza;
+	width:500px;
+}
+.text6{
+	position: relative;
+   left:-11070px;
+   top:3500px;
+}
+.col1{
+	position: relative;
+   left:-11970px;
+   top:3700px;
+}
+.col2{
+	position: relative;
+   left:-11900px;
+   top:3700px;
+}
+.col3{
+	position: relative;
+   left:-11830px;
+   top:3700px;
+}
+.footer{
+	position: relative;
+   left:-13030px;
+   top:4100px;
+}
+.text7 p {
+	color:#FFFFFF99;;
+	text-transform:uppercase;
+	font-size:15px;
+	font-family:"Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	width:300px
+}
+.text7{
+	position: relative;
+   left:-14130px;
+   top:4150px;
+}
+.text8 p{
+	color:#FFFFFF;
+	text-transform:uppercase;
+	font-size:15px;
+	font-family:"Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	width:400px;
+}
+.text8{
+	position: relative;
+   left:-14430px;
+   top:4250px;
+}
+.logo2{
+	position: relative;
+   left:-14390px;
+   top:4180px;
+}
+
+.icon1{
+	position: relative;
+   left:-14230px;
+   top:4150px;
+}
+.icon2{
+	position: relative;
+   left:-14450px;
+   top:4230px;
+}
+.icon3{
+	position: relative;
+   left:-14670px;
+   top:4310px;
+}
+.icon4{
+	position: relative;
+   left:-14890px;
+   top:4390px;
+}
+
+
+

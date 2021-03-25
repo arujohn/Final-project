@@ -44,7 +44,6 @@ ul:hover li a:hover {
 
 
 //slider
-/* Слайдер */
 .slider{
     max-width: 70%;
     position: relative;
@@ -52,7 +51,6 @@ ul:hover li a:hover {
     height: 200px;
 }
 
-/* Картинка масштабируется по отношению к родительскому элементу */
 .slider .item img {
     object-fit: cover;
     width: 100%;
@@ -62,7 +60,6 @@ ul:hover li a:hover {
 	margin-left:-1110px;
 	margin-top:150px;
 }
-/* Кнопки вперед и назад */
 .slider .previous, .slider .next {
     cursor: pointer;
     position: absolute;
@@ -82,12 +79,12 @@ ul:hover li a:hover {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
-/* При наведении на кнопки добавляем фон кнопок */
+
 .slider .previous:hover,
 .slider .next:hover {
     background-color: rgba(0, 0, 0, 0.2);
 }
-/* Анимация слайдов */
+
 .slider .item {
     animation-name: fade;
     animation-duration: 1.5s;
